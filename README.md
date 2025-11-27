@@ -2,11 +2,12 @@
 
 ## Brief
 
-In this assessment, you will be given references for self study before making an attempt to 7 coding practices. To download this folder, you can clone it to your GitHub account. See below for instructions.
+Please click on the `<> CODE🔻 ` button and select "Download ZIP" on the drop-down menu to download the files to your computer. 
 
 ![Screenshot](/assets/screenshot-code.png)
+![Screenshot](/assets/screenshot-download.png)
 
-Click on the green button with `Code` and choose `Download ZIP`. The entire assessment should not take you more than **2 hours**.
+The entire assessment should not take you more than **2 hours**.
 
 ## Expected Audience
 
