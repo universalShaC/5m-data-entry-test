@@ -6,9 +6,20 @@ def string_reverse(s):
     - Return the reversed string.
     """
     return
+    # Make sure s is a string
+    if not isinstance(s, str):
+        raise TypeError("s must be a string")
 
+    # Reverse the string using slicing
+    reversed_s = s[::-1]
+
+    # Return the reversed string
+    return reversed_s
 
 # Task 2
 # Invoke the function "string_reverse" using the following scenarios:
 # - "Hello World"
 # - "Python"
+
+print(string_reverse("Hello World"))
+print(string_reverse("Python"))
