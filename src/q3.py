@@ -6,9 +6,18 @@ def update_dictionary(dct, key, value):
     - Return the updated dictionary.
     """
     return
+        print(dct[key])
 
+    dct[key] = value
+    return dct
 
 # Task 2
 # Invoke the function "update_dictionary" using the following scenarios:
 # - {}, "name", "Alice"
 # - {"age": 25}, "age", 26
+
+result1 = update_dictionary({}, "name", "Alice")
+print(result1)   # Expected: {'name': 'Alice'}
+
+result2 = update_dictionary({"age": 25}, "age", 26)
+print(result2)   # Expected: {'age': 26}
