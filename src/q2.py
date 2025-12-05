@@ -6,9 +6,22 @@ def find_and_replace(lst, find_val, replace_val):
     - Return the modified list.
     """
     return
+    # 1. Check that lst is actually a list
+    if not isinstance(lst, list):
+        raise TypeError("lst must be a list")
 
+    # 2. Go through every item in the list and replace matches
+    for i in range(len(lst)):
+        if lst[i] == find_val:
+            lst[i] = replace_val
+
+    # 3. Return the modified list
+    return lst
 
 # Task 2
 # Invoke the function "find_and_replace" using the following scenarios:
 # - [1, 2, 3, 4, 2, 2], 2, 5
 # - ["apple", "banana", "apple"], "apple", "orange"
+
+print(find_and_replace([1, 2, 3, 4, 2, 2], 2, 5))
+print(find_and_replace(["apple", "banana", "apple"], "apple", "orange"))
